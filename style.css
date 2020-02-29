@@ -1,0 +1,33 @@
+.fixed {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(12, 3, 65);
+    width: 600px;
+    height: 250px;
+    color: white;
+    font-size: 2em;
+}
+
+.PassText {
+    font-size: 2em;
+    color: darkorange;
+}
+
+.GenBtn {
+    margin-top: 50px;
+    height: 50px;
+    font-size: 1.2em;
+    width: 250px;
+    cursor: grab;
+}
